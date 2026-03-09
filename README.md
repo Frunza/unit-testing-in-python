@@ -117,7 +117,7 @@ WORKDIR /app
 ```
 We also added everything from our repository in an *app* directory and configured it to be the working directory. Note that the versions are pinned.
 
-Now we can crate a docker-compose file to add extra logic, although not much will be needed for our scenario:
+Now we can crate a docker compose file to add extra logic, although not much will be needed for our scenario:
 ```sh
 services:
   main:
