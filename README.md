@@ -112,7 +112,7 @@ Let's start with a dockerfile that can run python:
 ```sh
 FROM python:3.13-alpine
 
-ADD ./ /app
+COPY ./ /app
 WORKDIR /app
 ```
 We also added everything from our repository in an *app* directory and configured it to be the working directory. Note that the versions are pinned.
